@@ -184,16 +184,14 @@ img {
 	}
 	.benefits .links {
 		min-height:100%;
+		display: inline-block;
 	}
-	.benefits .line {
-		display:block;
-  	align-items: center;
-		height: 2px;
-  	flex: auto;
-  	background: #e1e1e1;
-  	margin: 20px 0;
+	.benefits {
+		border-bottom: 1px #e1e1e1 solid;
 	}
-	
+	.links-section {
+		display: inline-block;
+	}
 	
 	/*** BUTTONS ***/
  .btn {
