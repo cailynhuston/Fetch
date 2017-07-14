@@ -185,6 +185,14 @@ img {
 	.benefits .links {
 		min-height:100%;
 	}
+	.benefits .line {
+		display:block;
+  	align-items: center;
+		height: 2px;
+  	flex: auto;
+  	background: #e1e1e1;
+  	margin: 20px 0;
+	}
 	
 	
 	/*** BUTTONS ***/
