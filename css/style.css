@@ -220,11 +220,16 @@ img {
    	background: url("../images/hero-image.png") top center no-repeat, linear-gradient(206deg, #8100FC 0%, #333333 55%);
    	background-size:100%;
    	text-align: center;
-   	padding:4em 0;
+   	padding:10px;
 	}
-	.pricing h2, .pricing p {
+	.pricing h2 {
    color:#FFFFFF;
+		padding:15px 0 0 0;
  }
+	.pricing p {
+		color:#ffffff;
+		text-align: center;
+	}
  	.pricing ul {
    margin:0 auto;
    padding:2em 0;
