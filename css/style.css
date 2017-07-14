@@ -144,17 +144,48 @@ img {
    font-size:48px;
    font-weight: 700;
    margin:95px 0 0;
+	 color:#ffffff;
  }
  header .hero p {
    font-size: 22px;
    line-height: 26px;
    font-weight: 100;
    margin:10px 0 40px;
+	 color: #ffffff;
  }
- header .hero img {
-   display: block;
-   margin:3em auto 0;
+	header {
+		background: #A74CFD url("../images/hero-image.png") top center no-repeat;
+   	background: url("../images/hero-image.png") top center no-repeat, linear-gradient(206deg, #8100FC 0%, #333333 55%);
+   	background-size:100%;
+   	text-align: center;
+   	padding:4em 0;
+	}
+	header div img {
+		max-width: 150px;
+	}
+	
+	/*** BENEFITS ***/
+	.benefits {
+		background:#ffffff;
+		background-size:100%;
+		text-align:left;
+	}
+	.benefits ul li {
+   list-style-type: none;
  }
+	.benefits h2 {
+		font-weight:600;
+	}
+	.benefits .notes {
+		min-height:100%;
+	}
+	.benefits .images {
+		min-height:100%;
+	}
+	.benefits .links {
+		min-height:100%;
+	}
+	
 	
 	/*** BUTTONS ***/
  .btn {
@@ -170,20 +201,20 @@ img {
 	
 	/*** PRICING ***/
 	.pricing {
-	background: #34495E url("images/hero-image.png") top center no-repeat;
-   background: url("images/hero-image.png") top center no-repeat, linear-gradient(185deg, #8100FC 0%, #333333 80%);
-   background-size:cover;
-   text-align: center;
-   padding:4em 0;
+		background: #A74CFD url("../images/hero-image.png") top center no-repeat;
+   	background: url("../images/hero-image.png") top center no-repeat, linear-gradient(206deg, #8100FC 0%, #333333 55%);
+   	background-size:100%;
+   	text-align: center;
+   	padding:4em 0;
 	}
 	.pricing h2, .pricing p {
    color:#FFFFFF;
  }
- .pricing ul {
+ 	.pricing ul {
    margin:0 auto;
    padding:2em 0;
  }
- .pricing ul li {
+ 	.pricing ul li {
    list-style-type: none;
  }
 	.box {
@@ -200,10 +231,8 @@ img {
  }
  .box h3 {
    font-family: "Nunito", Helvetica, Arial, sans-serif;
-   font-weight: 700;
-	 color: #ffffff;
-	 text-transform: uppercase;
-	 letter-spacing: 1px;
+   font-weight: 600;
+   text-transform: uppercase;
    background: #A74CFD;
    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.40);
    left:0;
@@ -212,12 +241,12 @@ img {
    text-align: center;
    margin:0 -15px 40px;
    padding:10px 0;
- }
+	}
 	.box h4 {
    font-size:50px;
    font-weight: normal;
    margin:40px 0 10px;
-   color:#5800AC;
+   color:#A74CFD;
  }
  .box h4 span {
    font-size:32px;
@@ -225,8 +254,8 @@ img {
  }
  .box h4 span.month {
    font-family: "Nunito", Helvetica, Arial, sans-serif;
-   font-weight: 800;
-   color:#5800AC;
+   font-weight: 100;
+   color:#333333;
    font-size:20px;
    vertical-align: middle;
  }
@@ -235,3 +264,16 @@ img {
    margin-bottom:20px;
    font-weight: 100;
  }
+	.box .btn {
+   position:absolute;
+   bottom:20px;
+   left:20px;
+   right:20px;
+ }
+ .small {
+   font-size: 12px;
+   color: #FEFEFE;
+   line-height: 15px;
+   font-style:italic;
+ }
+	
