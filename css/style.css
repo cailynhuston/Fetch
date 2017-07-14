@@ -189,6 +189,9 @@ img {
 	.benefits {
 		border-bottom: 1px #e1e1e1 solid;
 	}
+	.notes-section {
+		display: inline-block;
+	}
 	.links-section {
 		display: inline-block;
 	}
