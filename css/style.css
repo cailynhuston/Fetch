@@ -298,3 +298,38 @@ img {
    font-style:italic;
  }
 	
+	/*** FOOTER ***/
+	footer {
+   background-color: #A74CFD;
+   color: #FFFFFF;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+		padding:20px 0 0 0;
+ }
+ 
+	footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+ footer .logo {
+   margin: 0 auto;
+   display: block;
+	 max-width: 30%;	
+ }
+
+	
