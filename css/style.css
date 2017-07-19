@@ -224,16 +224,23 @@ img {
 		display: inline-block;
     margin-bottom: 0;
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4bbdbb89af5a70a1e4960f92a513cab577accac9
   .notes-section .one-half {
     margin-bottom: 0;
     top: 4px;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4bbdbb89af5a70a1e4960f92a513cab577accac9
 	.links-section {
 		display: inline-block;
 	}
 
+<<<<<<< HEAD
 /*** SAVE IMAGES ***/
 
 	.image-gallery { 
@@ -255,6 +262,8 @@ img {
 	}
 
 
+=======
+>>>>>>> 4bbdbb89af5a70a1e4960f92a513cab577accac9
 /* Storage and Security Section
 ------------------------------- */
 
@@ -273,6 +282,7 @@ img {
 .storage-title {
   flex: 1 1 40%;
   color: #A74CFD;
+<<<<<<< HEAD
 	
 }
 
@@ -282,6 +292,10 @@ img {
 }
 
 
+=======
+}
+
+>>>>>>> 4bbdbb89af5a70a1e4960f92a513cab577accac9
 	/*** BUTTONS ***/
  .btn {
    border-radius: 4px;
@@ -294,8 +308,11 @@ img {
    box-shadow: 0px 2px 0px 0px #333333;
  }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 4bbdbb89af5a70a1e4960f92a513cab577accac9
 	/*** PRICING ***/
 
 	.pricing {
