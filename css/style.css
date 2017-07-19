@@ -104,7 +104,10 @@ img {
    }
  }
 
+
+
 	/*** HEADER ***/
+
 	header {
 		color:#333333;
 	}
@@ -166,6 +169,8 @@ img {
 	header div img {
 		max-width: 150px;
 	}
+
+
 
 	/*** BENEFITS ***/
 
@@ -260,7 +265,7 @@ img {
 
 .storage-container {
   border: 2px solid #A74CFD;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 
 .storage-inner-container {
@@ -272,9 +277,7 @@ img {
 
 .storage-title {
   flex: 1 1 40%;
-  color: #A74CFD;
-<<<<<<< HEAD
-	
+  color: #A74CFD;	
 }
 
 .fa {
