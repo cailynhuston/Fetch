@@ -246,14 +246,12 @@ img {
 	}
 
 	.image-gallery h2 { 
-   position:absolute; 
+   position:inherit; 
    top: 100px;
-	 min-width: 100%;
 	}
 
 	.image-gallery p1 {
-		position:absolute;
-		display:flex;
+		position:inherit;
 		top: 200px;
 		left:40px;
 		color: #ffffff;
@@ -381,6 +379,8 @@ img {
    font-style:italic;
  }
 
+
+
 	/*** FOOTER ***/
 	footer {
    background-color: #A74CFD;
@@ -389,7 +389,7 @@ img {
    position: relative;
    overflow: hidden;
    z-index: 0;
-		padding:20px 0 0 0;
+		padding:10px 0 0 0;
  }
 
 	footer p, footer nav ul {
