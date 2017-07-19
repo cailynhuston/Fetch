@@ -47,6 +47,7 @@ img {
     max-width: 100%;
     width: 100%;
     height: auto !important;
+    display: block;
 }
 
 @media (max-width:767px) {
@@ -95,13 +96,14 @@ img {
 	.one-fourth {
 		width: 21%;
 	}
-	
+}
+
 @media (min-width: 1200px) {
    .container {
      width: 1170px;
    }
  }
-	
+
 	/*** HEADER ***/
 	header {
 		color:#333333;
@@ -150,6 +152,7 @@ img {
    font-size: 22px;
    line-height: 26px;
    font-weight: 100;
+	 text-align:center;
    margin:10px 0 40px;
 	 color: #ffffff;
  }
@@ -163,45 +166,122 @@ img {
 	header div img {
 		max-width: 150px;
 	}
-	
+
 	/*** BENEFITS ***/
+
 	.benefits {
 		background:#ffffff;
 		background-size:100%;
 		text-align:left;
 		padding:4em 0;
 	}
+
 	.benefits ul li {
    list-style-type: none;
  }
+
 	.benefits h2 {
 		font-weight:600;
+		color:#A74CFD;
 	}
+
+	.benefits h3 {
+	color:#A74CFD;
+	font-weight:600;
+	}
+
 	.benefits .notes {
 		min-height:100%;
 	}
+
 	.benefits .images {
 		min-height:100%;
 		text-align:center;
 	}
+
 	.benefits .images h3, p {
 		min-height:100%;
 		text-align:left;
 	}
+
+	.benefits .container-features {
+		min-height:100%;
+		text-align:left;
+		display: inline-block;
+		align-items: center;
+	}
+
 	.benefits .links {
 		min-height:100%;
 		display: inline-block;
 	}
+
 	.benefits {
 		border-bottom: 1px #e1e1e1 solid;
 	}
+
 	.notes-section {
 		display: inline-block;
+    margin-bottom: 0;
 	}
+
+  .notes-section .one-half {
+    margin-bottom: 0;
+    top: 4px;
+  }
+
 	.links-section {
 		display: inline-block;
 	}
+
+/*** SAVE IMAGES ***/
+
+	.image-gallery { 
+   align-content: center;
+	}
+
+	.image-gallery h2 { 
+   position:absolute; 
+   top: 100px;
+	 min-width: 100%;
+	}
+
+	.image-gallery p1 {
+		position:absolute;
+		display:flex;
+		top: 200px;
+		left:40px;
+		color: #ffffff;
+	}
+
+
+/* Storage and Security Section
+------------------------------- */
+
+.storage-container {
+  border: 2px solid #A74CFD;
+  padding: 10px 0;
+}
+
+.storage-inner-container {
+  max-width: 1090px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.storage-title {
+  flex: 1 1 40%;
+  color: #A74CFD;
 	
+}
+
+.fa {
+  position:relative;
+	vertical-align: middle;
+}
+
+
 	/*** BUTTONS ***/
  .btn {
    border-radius: 4px;
@@ -213,8 +293,11 @@ img {
    border: 2px solid #A74CFD;
    box-shadow: 0px 2px 0px 0px #333333;
  }
-	
+
+
+
 	/*** PRICING ***/
+
 	.pricing {
 		background: #A74CFD url("../images/hero-image.png") top center no-repeat;
    	background: url("../images/hero-image.png") top center no-repeat, linear-gradient(206deg, #8100FC 0%, #333333 55%);
@@ -297,7 +380,7 @@ img {
    line-height: 15px;
    font-style:italic;
  }
-	
+
 	/*** FOOTER ***/
 	footer {
    background-color: #A74CFD;
@@ -308,7 +391,7 @@ img {
    z-index: 0;
 		padding:20px 0 0 0;
  }
- 
+
 	footer p, footer nav ul {
    font-size:14px;
    font-weight:100;
@@ -329,7 +412,5 @@ img {
  footer .logo {
    margin: 0 auto;
    display: block;
-	 max-width: 30%;	
+	 max-width: 30%;
  }
-
-	
