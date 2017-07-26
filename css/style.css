@@ -519,16 +519,54 @@ img {
  }
 
  .left-nav {
-   height: 100vh;
-   width:14.66666667%;
+   height: 100%;
+   width:280px;
    color:#FFFFFF;
    background: #A74CFD url("../images/left-nav-background.png") top center no-repeat;
    background: url("../images/left-nav-background.png") top center no-repeat, linear-gradient(206deg, #8100FC 0%, #333333 55%);
    background-size:100%;
    float:left;
-   position: fixed;
-   display:block;
+   position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   transform: translate(-280px,0);
+     -webkit-transform: translate(-280px,0); /** Chrome & Safari **/
+     -o-transform: translate(-280px,0); /** Opera **/
+     -moz-transform: translate(-280px,0); /** Firefox **/
  }
+
+.left-nav.open {
+   display:block;
+   width:280px;
+   background: #A74CFD url("../images/left-nav-background.png") top center no-repeat;
+   background: url("../images/left-nav-background.png") top center no-repeat, linear-gradient(206deg, #8100FC 0%, #333333 55%);
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   transform: translate(0,0);
+     -webkit-transform: translate(0,0); /** Chrome & Safari **/
+     -o-transform: translate(0,0); /** Opera **/
+     -moz-transform: translate(0,0); /** Firefox **/
+     z-index: 100;
+ }
+
+ .hamburger {
+   position:absolute;
+   z-index: 1000;
+   background:#A74CFD;
+   color:#FFF;
+   text-decoration: none;
+   font-size: 22px;
+   padding: 10px 15px;
+   border-radius: 4px;
+   left: 5px;
+   top: 15px;
+ }
+
+
  .left-nav .site-logo {
    padding:20px 20px;
    display:block;
@@ -696,6 +734,34 @@ img {
      display:block;
    }
  }
+
+ @media (min-width:992px) {
+   .left-nav {
+     height: 100vh;
+     width:14.66666667%;
+     color:#FFFFFF;
+     background: #A74CFD url("../images/left-nav-background.png") top center no-repeat;
+   	 background: url("../images/left-nav-background.png") top center no-repeat, linear-gradient(206deg, #8100FC 0%, #333333 55%);
+     float:left;
+     position: fixed;
+     display:block;
+     transform: translate(0,0);
+     -webkit-transform: translate(0,0); /** Chrome & Safari **/
+     -o-transform: translate(0,0); /** Opera **/
+     -moz-transform: translate(0,0); /** Firefox **/
+   }
+   .left-nav.open {
+     width:14.66666667%;
+     transform: translate(0,0);
+     -webkit-transform: translate(0,0); /** Chrome & Safari **/
+     -o-transform: translate(0,0); /** Opera **/
+     -moz-transform: translate(0,0); /** Firefox **/
+   }
+   .hamburger {
+     display:none;
+   }
+ }
+
 
 /*** Tablets ***/
  @media (min-width:768px) {
