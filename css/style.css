@@ -169,7 +169,7 @@ img {
    	background: url("../images/hero-image.png") top center no-repeat, linear-gradient(206deg, #8100FC 0%, #333333 55%);
    	background-size:100%;
    	text-align: center;
-   	padding:4em 0;
+   	padding:5em 0;
 	}
 	header div img {
 		max-width: 150px;
