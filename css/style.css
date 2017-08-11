@@ -393,6 +393,12 @@ img {
    
  }
 
+.item-box .add-button-dashboard {
+	object-fit:none;
+	max-width: 60%;
+	align-content: center;
+}
+
 	/*** PRICING ***/
 
 	.pricing {
