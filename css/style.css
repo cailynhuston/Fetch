@@ -389,6 +389,10 @@ img {
    box-shadow: 0px 2px 0px 0px #333333;
  }
 
+.btn-account {
+   
+ }
+
 	/*** PRICING ***/
 
 	.pricing {
@@ -522,8 +526,7 @@ img {
    height: 100%;
    width:280px;
    color:#FFFFFF;
-   background: #A74CFD url("../images/left-nav-background.png") top center no-repeat;
-   background: url("../images/left-nav-background.png") top center no-repeat, linear-gradient(206deg, #8100FC 0%, #333333 55%);
+   background: top center no-repeat, linear-gradient(206deg, #A74CFD 0%, #8100FC 55%);
    background-size:100%;
    float:left;
    position: absolute;
@@ -540,8 +543,7 @@ img {
 .left-nav.open {
    display:block;
    width:280px;
-   background: #A74CFD url("../images/left-nav-background.png") top center no-repeat;
-   background: url("../images/left-nav-background.png") top center no-repeat, linear-gradient(206deg, #8100FC 0%, #333333 55%);
+  background: top center no-repeat, linear-gradient(206deg, #A74CFD 0%, #8100FC 55%);
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
@@ -740,8 +742,7 @@ img {
      height: 100vh;
      width:14.66666667%;
      color:#FFFFFF;
-     background: #A74CFD url("../images/left-nav-background.png") top center no-repeat;
-   	 background: url("../images/left-nav-background.png") top center no-repeat, linear-gradient(206deg, #8100FC 0%, #333333 55%);
+   	 background: top center no-repeat, linear-gradient(206deg, #A74CFD 0%, #8100FC 55%);
      float:left;
      position: fixed;
      display:block;
@@ -752,6 +753,7 @@ img {
    }
    .left-nav.open {
      width:14.66666667%;
+		 background: top center no-repeat, linear-gradient(206deg, #A74CFD 0%, #8100FC 55%);
      transform: translate(0,0);
      -webkit-transform: translate(0,0); /** Chrome & Safari **/
      -o-transform: translate(0,0); /** Opera **/
