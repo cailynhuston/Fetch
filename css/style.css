@@ -804,3 +804,15 @@ img {
      margin:0 1% 25px;
    }
  }
+
+/* STYLES FOR LOWER MENU */
+.dropit .dropit-open .dropit-submenu.lower-menu {
+	bottom:10px;
+	top:auto !important;
+}
+
+.dropit .dropit-open .dropit-submenu.lower-menu:after {
+	top: auto;
+	bottom: -8px;
+	border-width: 8px 8px 0;
+}
