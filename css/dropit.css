@@ -52,6 +52,16 @@
   right: 10px;
  }
 
+.dropit .dropit-open .dropit-submenu.menu-up {
+  top:180px;
+}
+
+.dropit .dropit-open .dropit-submenu.menu-up:after {
+	top: auto;
+  bottom: -8px;
+  border-width: 8px 8px 0px;
+}
+
  .dropit .dropit-open .dropit-submenu li {
   display: block;
   margin-bottom: 20px;
